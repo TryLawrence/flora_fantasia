@@ -9,7 +9,7 @@ nav {
     width: 75%;
     display: flex;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
     align-items: center;
     font-size: 20px;
 }
@@ -65,7 +65,7 @@ nav ul {
 .flower-pick {
     width: 75%;
     margin: auto;
-    padding: 40px 0px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -80,6 +80,31 @@ nav ul {
 }
 
 .flower-pick-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.bouquet {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.bouquet ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bouquet-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
