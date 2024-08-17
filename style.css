@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 nav {
@@ -110,4 +111,26 @@ nav ul {
     gap: 10px;
     align-items: center;
     font-size: 20px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #eeeff3;
+    font-size: 20px;
+}
+
+.footer h2 {
+    padding-left: 12.4%;
+    margin-bottom: 5px;
+}
+
+.footer-text {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: justify;
+    gap: 30px;
 }
